@@ -1,0 +1,20 @@
+{
+  "staging": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-nuber-staging-62442-authRole",
+      "UnauthRoleArn": "arn:aws:iam::884107213833:role/amplify-nuber-staging-62442-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::884107213833:role/amplify-nuber-staging-62442-authRole",
+      "Region": "us-west-2",
+      "DeploymentBucketName": "amplify-nuber-staging-62442-deployment",
+      "UnauthRoleName": "amplify-nuber-staging-62442-unauthRole",
+      "StackName": "amplify-nuber-staging-62442",
+      "StackId": "arn:aws:cloudformation:us-west-2:884107213833:stack/amplify-nuber-staging-62442/eb8d8d40-33f5-11ed-8ad5-02370c36c5b1",
+      "AmplifyAppId": "d388ttvq7rdae7"
+    },
+    "categories": {
+      "auth": {
+        "nuber": {}
+      }
+    }
+  }
+}
