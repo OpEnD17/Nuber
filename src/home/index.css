@@ -1,0 +1,70 @@
+.signout {
+    border: none;
+    color: white;
+    border-radius: 20px;
+    position: absolute;
+    right: 20px;
+    top: 30px;
+    cursor: pointer;
+    width: 100px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    font-size: large;
+    font-weight: bolder;
+}
+
+.signout:hover{
+    background-color: rgb(4, 74, 86);
+}
+
+.welcome {
+    text-align: center;
+    font-size: 50px;
+    font-weight: 700;
+    color: rgb(4, 125, 149);
+}
+
+.user {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 20px;
+}
+
+.uploadInput {
+    display: none;
+}
+
+.upload {
+    height: 200px;
+    width: 200px;
+    border: 5px dashed rgb(4, 125, 149);
+    cursor: pointer;
+    margin: auto;
+}
+
+.icon {
+    font-size: 50px;
+    color: rgb(4, 125, 149);
+    text-align: center;
+    margin-top: 50px;
+}
+
+.button {
+    background-color: rgb(4, 125, 149);
+    height: 30px;
+    width: 90px;
+    text-align: center;
+    line-height: 30px;
+    border-radius: 30px;
+    color: white;
+    cursor: pointer;
+    margin: auto;    
+    margin-top: 30px;
+}
+
+.desc{
+    text-align: center;
+    margin: 30px;
+
+}
