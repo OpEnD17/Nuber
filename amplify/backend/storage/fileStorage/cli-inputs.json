@@ -1,0 +1,12 @@
+{
+  "resourceName": "fileStorage",
+  "policyUUID": "ab502779",
+  "bucketName": "nuber6162c8b55b934bd3905ec691ec2006d0",
+  "storageAccess": "auth",
+  "guestAccess": [],
+  "authAccess": [
+    "CREATE_AND_UPDATE"
+  ],
+  "triggerFunction": "NONE",
+  "groupAccess": {}
+}
