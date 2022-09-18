@@ -18,7 +18,8 @@ const Home = props => {
             return;
         }
         const result = await Storage.put(props.user.username, fileData, {
-            contentType: fileData.type
+            contentType: fileData.type,
+            level: "private"
         });
         alert("Upload success!");
         console.log(result);
@@ -60,9 +61,25 @@ const Home = props => {
                     Something awesome is coming ...
                 </div>   
             }
-
         </div>
     )
 };
 
 export default Home;
+
+
+
+/**
+ * 
+ * 外部 
+ * const [isDriver, setIsDriver] = useState(false);
+ * 
+ * <Radio onClick={e => setIsDriver(e.target.value === "driver")}/>
+ * 
+ * {
+ *      isDriver
+ *      ?
+ *      
+ * }
+ * 
+ */
