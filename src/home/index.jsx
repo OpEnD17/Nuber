@@ -17,9 +17,10 @@ const Home = props => {
             alert("No file!");
             return;
         }
-        const result = await Storage.put(props.user.username + "." + fileData.type, fileData, {
-            contentType: fileData.type,
-            level: "private"
+        const list = fileData.name.split(".");
+        const type = list[list.length - 1];
+        const result = await Storage.put(props.user.username + "." + type, fileData, {
+                contentType: fileData.type
         });
         alert("Upload success!");
         console.log(result);
